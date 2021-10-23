@@ -1,0 +1,147 @@
+html{
+    margin: 0;
+    background-size: cover;
+    padding: 0;
+    
+}
+body{
+    margin: 0 0 0 0;
+}
+img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin:0 0 0 0;
+    top:0;
+    background-size: cover;
+    animation: appear 3s;
+}
+.name{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 28%;
+    left: 17%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    animation: up2 2s;
+}
+.name-box{
+    font-size: 2em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 32%;
+    left: 17%;
+    height:5%;
+    background: none;
+    width: 10%;
+    border-style: dashed;
+    background: #2626261c;
+    animation: up 2s;
+}
+.number{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 28%;
+    left: 46%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    animation: up2 2s;
+}
+.number-box{
+    font-size: 2em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 32%;
+    left: 45%;
+    height:5%;
+    background: none;
+    width: 13%;
+    border-style: dashed;
+    background: #2626261c;
+    overflow:hidden;
+    animation: up 2s;
+}
+.message{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 28%;
+    left: 76%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    animation: up2 2s;
+}
+.message-box{
+    font-size: 2em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 32%;
+    left: 73%;
+    height:15%;
+    background: none;
+    width: 20%;
+    border-style: dashed;
+    border-width: 3px;
+    background: #2626261c;
+    animation: up 2s;
+}
+
+.submit{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 58%;
+    left: 43%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    height:15%;
+    width: 20%;
+    background:none;
+    border:none;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 5em;
+    animation: appear 9s;
+
+}
+
+@keyframes up{
+    from{
+        top: 52%;
+        opacity: 40%;
+
+    }
+    to{
+        
+        top: 32%;
+        opacity: 100%;
+    }
+        
+}
+
+@keyframes up2{
+    from{
+        top: 42%;
+        opacity: 40%;
+
+    }
+    to{
+        
+        top: 28%;
+        opacity: 100%;
+    }  
+}
+@keyframes appear{
+    from{
+        opacity: 20%;
+
+    }
+    to{
+        
+        opacity: 100%;
+    }  
+}
